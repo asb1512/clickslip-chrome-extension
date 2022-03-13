@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+
+  "name": "SlipClick",
+  "description": "A prank extension that prevents someone from clicking on the desired item.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
