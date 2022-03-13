@@ -61,6 +61,7 @@ header {
   border: 2px solid var(--gray);
   border-radius: 500px;
   color: var(--white);
+  overflow: hidden;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 100%;
@@ -72,6 +73,7 @@ header {
   width: 100%;
   height: 100%;
   font-family: 'Graphik Regular';
+  font-size: 1.1rem;
   color: var(--gray);
   display: flex;
   flex-flow: row nowrap;
