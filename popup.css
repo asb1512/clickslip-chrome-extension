@@ -57,10 +57,10 @@ header {
 
 #on-off {
   width: 100%;
-  height: 3rem;
-  border: 2px solid var(--gray);
+  height: 2.8rem;
+  border: 2px solid var(--white);
   border-radius: 500px;
-  color: var(--white);
+  color: var(--gray);
   overflow: hidden;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -73,11 +73,15 @@ header {
   width: 100%;
   height: 100%;
   font-family: 'Graphik Regular';
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--gray);
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   justify-items: center;
   align-items: center;
+}
+
+#on-off:hover {
+  cursor: pointer;
 }
