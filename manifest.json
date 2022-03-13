@@ -5,8 +5,14 @@
   "description": "A prank extension that prevents someone from clicking on the desired item.",
   "version": "1.0",
   "action": {
-    "default_icon": "icon.png",
+    "default_icon": {
+      "16": "/icons/sc_icon_16.png",
+      "32": "/icons/sc_icon_32.png",
+      "48": "/icons/sc_icon_48.png",
+      "128": "icons/sc_icon_128.png"
+    },
     "default_title": "SlipClick®",
     "default_popup": "popup.html"
-  }
+  },
+  "permissions": ["storage"]
 }
