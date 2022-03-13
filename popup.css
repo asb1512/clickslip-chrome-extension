@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Graphik Thin';
+  src: url(fonts/GraphikThin.otf);
+}
+
+@font-face {
+  font-family: 'Graphik Light';
+  src: url(fonts/GraphikLight.otf);
+}
+
+@font-face {
+  font-family: 'Graphik Regular';
+  src: url(fonts/GraphikRegular.otf);
+}
+
+@font-face {
+  font-family: 'Graphik Medium';
+  src: url(fonts/GraphikMedium.otf);
+}
+
+@font-face {
+  font-family: 'Graphik Bold';
+  src: url(fonts/GraphikBold.otf);
+}
+
+@font-face {
+  font-family: 'Graphik Black';
+  src: url(fonts/GraphikBlack.otf);
+}
+
+:root {
+  --black: #0A0A0B;
+  --gray: #6D676E;
+  --yellow: #FFB30F;
+  --white: #FBFFFE;
+}
+
+body {
+  width: 300px;
+  height: 500px;
+  background: var(--black);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+header {
+  font-family: 'Graphik Black';
+  font-size: 2.5rem;
+  color: var(--yellow);
+}
