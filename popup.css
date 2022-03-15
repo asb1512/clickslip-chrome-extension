@@ -85,3 +85,7 @@ header {
 #on-off:hover {
   cursor: pointer;
 }
+
+#off {
+  border-left: 1px solid var(--gray);
+}
